@@ -16,8 +16,8 @@ La aplicación va a tener cuatro modos o funcionalidades
 1.1.3 Saber si hay suficientes ingredientes para poder realizar una receta
 1.1.4 Puede añadir alimentos especificando unidades a la lista de la compra
 1.1.5 El usuario puede actualizar manualmente los alimentos que tiene actualmente
-1.1.6 Se puede filtrar el stock por receta que se va hacer (se muestra una lista de las recetas [la idea principal es que permita al usuario si tiene los ingredientes para hacer la receta que quiere preparar]), tipo de producto (líquido, carne, pescado, congelado...)
-1.2 El usuario tiene opción de guardar donde se guardan los ingredientes o alimentos (nevera, congelador "x cajón", trastero...)
+1.1.6 Se puede filtrar el stock por receta que se va hacer (se muestra una lista de las recetas [la idea principal es que permita al usuario NOTA (SABER) si tiene los ingredientes para hacer la receta que quiere preparar]), tipo de producto (líquido, carne, pescado, congelado...)
+1.2 El usuario tiene opción de (guardar) NOTA (SABER) donde se guardan los ingredientes o alimentos (nevera, congelador "x cajón", trastero...)
 
 2. Lista de la compra
 2.1 Permitirá al usuario tener una lista actualizada en todos los dispositivos (cuando un usuario añada algo en un dispositivo, en todos los dispositivos que haya iniciado sesión o en su perfil tendrá la lista actualizada [similar a como funciona la lista de usuarios de netflix y plataformas streaming])
@@ -33,13 +33,13 @@ Los puntos 2.3 y 2.4 serán cosa de un futuro
 
 3. Recetas GM
 3.1 Esto será un repositorio o directorio de todas las recetas de la familia.
-3.1.1 Por ahora, solo será texto, pero más adelante intentará añadirse videos 
+3.1.1 Por ahora, solo será texto, pero más adelante intentarán añadirse videos 
 3.2 Se pueden añadir nuevas recetas
 3.2.1 Para estas nuevas recetas, el usuario puede redactarlas
 3.2.2 El usuario puede subir una foto y mandará una aviso a todos los usuarios de la nueva adición al directorio al abrir la aplicación.
 3.3 A la hora estar revisando una receta, el usuario puede elegir añadirla al menú
 3.3.1 Al añadirla al menú, se abre la ventana de menú para poder seleccionar en qué día y si se va a hacer para comida o cena
-3.3.2 Al añadirla al menú, la app revisa los ingredientes disponibles en toda la casa y avisa si faltan ingredientes, si quedarían justos o si quedarían pocos al terminar la receta. Estos términos se definirán según el porcentaje del stock disponible; el usuario podrá indicar qué porcentaje o cantidad en unidades le resulta cómoda.
+3.3.2 Al añadirla al menú, la app revisa los ingredientes disponibles en toda la casa y avisará si faltan ingredientes, si quedarían justos o si quedarían pocos al terminar la receta. Estos términos se definirán según el porcentaje del stock disponible; el usuario podrá indicar qué porcentaje o cantidad en unidades le resulta cómoda.
 3.3.3 Cuando el usuario prepare la receta, podrá marcarla como completada para dejar constancia y actualizar el stock. Si no lo hace en ese momento, podrá actualizar el stock manualmente más adelante, indicando que preparó la receta otro día de esa semana.
 3.4 Las recetas incluyen:
 3.4.1 Ingredientes (tipos, unidades, medidas, nombres e imágenes reutilizables). El mismo ingrediente específico será compartido por las cuatro funcionalidades. No habrá ingredientes genéricos: por ejemplo, la sal fina y la sal gruesa serán ingredientes distintos, cada uno reutilizable en stock, la lista de la compra, las recetas y el menú.
