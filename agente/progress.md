@@ -8,6 +8,12 @@ Este archivo reúne los cambios implementados y mantenidos en GM-Foodz. Se actua
 - **Archivos modificados:** `agente/AGENTS.md` (creado).
 - **Evolución de la aplicación:** El proyecto pasa de documentar su visión funcional a establecer criterios comunes para orientar futuras implementaciones. Todavía no se ha implementado código de la aplicación.
 
+## Perfiles familiares y selección inicial
+
+- **Resumen de la implementación:** Se documentaron seis perfiles familiares (JA, AA, DnA, DJ, GA y AnT), una pantalla inicial para dispositivos sin perfil seleccionado, un carrusel horizontal con el perfil central destacado y la persistencia del perfil elegido en el dispositivo hasta seleccionar otro.
+- **Archivos modificados:** `README.md` (actualizado).
+- **Evolución de la aplicación:** La visión funcional ahora contempla la selección y permanencia de perfiles por dispositivo. No se implementó la pantalla ni código de aplicación.
+
 ## Regla de ramas por funcionalidad
 
 - **Resumen de la implementación:** Se estableció que cada funcionalidad debe trabajarse en su rama correspondiente: `menu`, `stock`, `lista-de-compra` o `recetas`. Se verificó que la rama activa es `Agente` y que las ramas funcionales aún no existen; no se crearon ramas en este cambio.
