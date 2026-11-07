@@ -7,6 +7,21 @@ La aplicación es sencilla. La idea es facilitar la vida en la cocina.
 
 La aplicación va a ser mobile first, pero se usará tanto en móvil com en tablet.
 
+## Perfiles de usuario
+
+La aplicación estará destinada a la familia. Habrá seis perfiles, uno por pareja para utilizarlo en casa:
+
+- JA
+- AA
+- DnA
+- DJ
+- GA
+- AnT
+
+Cuando un dispositivo no tenga un perfil seleccionado, se mostrará esta pantalla de inicio para elegirlo. Los perfiles aparecerán en un carrusel horizontal deslizable: el perfil situado en el centro ocupará casi toda la pantalla y los demás se verán más pequeños.
+
+Una vez seleccionado un perfil, permanecerá activo en ese dispositivo hasta que se elija otro.
+
 La aplicación va a tener cuatro modos o funcionalidades
 
 1. Stock 
