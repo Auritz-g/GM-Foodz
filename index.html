@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es" data-theme="dark">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#7D9CAA" id="browser-theme-color">
+    <meta name="description" content="Selecciona el perfil familiar para GM-Foodz.">
+    <title>GM-Foodz · Inicio</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body class="min-h-screen font-sans antialiased">
+    <main class="mx-auto flex min-h-screen w-full max-w-6xl flex-col items-center justify-center gap-8 px-4 py-8 sm:px-8">
+      <header class="home-panel w-full max-w-4xl rounded-3xl p-6 text-center sm:p-8">
+        <div class="theme-controls">
+          <button
+            class="theme-toggle inline-flex min-h-11 items-center gap-2 rounded-full border px-4 py-2 text-sm font-semibold transition-colors focus-visible:outline-2 focus-visible:outline-offset-4"
+            type="button"
+            id="theme-toggle"
+            aria-label="Cambiar a modo claro"
+            aria-pressed="false"
+          >
+            <span aria-hidden="true" id="theme-icon">☾</span>
+            <span id="theme-label">Modo oscuro</span>
+          </button>
+        </div>
+        <p class="mt-8 text-sm font-semibold uppercase tracking-[0.2em]">GM-Foodz</p>
+        <h2 class="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">¿Quién está en la cocina?</h2>
+        <p class="mt-3 text-base">Desliza para elegir un perfil familiar.</p>
+      </header>
+
+      <section class="w-full" aria-labelledby="profiles-heading">
+        <h2 id="profiles-heading" class="sr-only">Selecciona tu perfil</h2>
+        <div class="carousel-shell mx-auto flex w-full max-w-4xl items-center justify-center gap-2 sm:gap-4">
+          <button class="carousel-control" type="button" id="previous-profile" aria-label="Perfil anterior">
+            <span aria-hidden="true">‹</span>
+          </button>
+          <div
+            id="profile-carousel"
+            class="profile-carousel flex min-w-0 flex-1 snap-x snap-mandatory items-center gap-4 overflow-x-auto py-8 sm:gap-6"
+            tabindex="0"
+            role="group"
+            aria-label="Carrusel de perfiles familiares"
+          ></div>
+          <button class="carousel-control" type="button" id="next-profile" aria-label="Perfil siguiente">
+            <span aria-hidden="true">›</span>
+          </button>
+        </div>
+        <p id="selection-status" class="mx-auto mt-2 min-h-6 w-fit rounded-full px-4 py-2 text-center text-sm" aria-live="polite"></p>
+      </section>
+
+      <footer class="home-panel rounded-full px-5 py-3 text-center text-sm">
+        <p>El perfil elegido se guarda en este dispositivo.</p>
+      </footer>
+    </main>
+  </body>
+</html>
